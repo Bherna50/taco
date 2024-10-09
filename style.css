@@ -1,15 +1,13 @@
     /* -------------------- IMPORTED FONTS -------------------------------------- */
-    @import url(@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     /*-------------------- CSS RESET ---------------------------------------------------*/
-    html {
-        font-family: var(--font2);
-    }
+    
     /* -------------------- ROOT VARIABLES --------------------------------------- */
     :root {
     --black:#0D0D0D;
     --white:#F2F2F2;
     --cyan:#7ABFBF;
-    --dkcyan:rgba(122, 191, 191, .5);
+    --cheyenne:rgba(122, 191, 191, .5);
     --orange:#EB5428;
     --font1: "Bebas Neue", sans-serif;
     --font2: "Montserrat", sans-serif;
@@ -24,13 +22,10 @@
         background-color: #F2F2F2;
         margin: 0px 50px;
       }
-      header {
-        
-      }
       h1 {
         font-size:40px;
         text-align:center;
-        font-family: var(--font1);
+        font-family: "Bebas Neue", sans-serif;
       }
       nav {
         font-family: var(--font2);
@@ -46,22 +41,15 @@
         background-color: #F2F2F2;
         text-align:center;
         font-size: 20px;
-        font-family: var(--font1);
+        font-family: "Bebas Neue", sans-serif;;
       }
       nav span {
         font-size: 20px;
         font-family: var(--font1);
+        display: inline;
       }
       .label {
         background-color: #EB5428;
-      }
-      .details {
-        background: #0D0D0D;
-        color:#7ABFBF;
-      }
-      .ingredients {
-        float: left;
-        
       }
       .directions {
 
@@ -94,7 +82,15 @@
     }
     /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
     @media (min-width: 1280px) {
+      .details {
+        background: #0D0D0D;
+        color:#7ABFBF;
+      }
+      .ingredients {
+        float: left;
         
+      }
+         
     }
     @media print {
         margin: 0.5inch;

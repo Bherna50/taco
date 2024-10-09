@@ -7,7 +7,7 @@
     --black:#0D0D0D;
     --white:#F2F2F2;
     --cyan:#7ABFBF;
-    --cheyenne:rgba(122, 191, 191, .5);
+    --cheyenne:rgba(122,191,191,.5);
     --orange:#EB5428;
     --font1: "Bebas Neue", sans-serif;
     --font2: "Montserrat", sans-serif;
@@ -51,11 +51,14 @@
       .label {
         background-color: #EB5428;
       }
+      .details {
+        list-style: none;
+      }
       .directions {
-
+        list-style: ;
       }
       .dishes {
-        background: var(--dkcyan);
+        background: rgba(122, 191, 191, .5);
       }
       h2 {
         font-size:30px;

@@ -1,7 +1,9 @@
     /* -------------------- IMPORTED FONTS -------------------------------------- */
-    
+    @import url(@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     /*-------------------- CSS RESET ---------------------------------------------------*/
-
+    html {
+        font-family: var(--font2);
+    }
     /* -------------------- ROOT VARIABLES --------------------------------------- */
     :root {
     --black:#0D0D0D;
@@ -9,7 +11,8 @@
     --cyan:#7ABFBF;
     --dkcyan:rgba(122, 191, 191, .5);
     --orange:#EB5428;
-    --font:;
+    --font1: "Bebas Neue", sans-serif;
+    --font2: "Montserrat", sans-serif;
 
     }
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
@@ -27,37 +30,38 @@
       h1 {
         font-size:40px;
         text-align:center;
+        font-family: var(--font1);
       }
       nav {
-        padding-bottom:25px;
+        font-family: var(--font2);
       }
       nav li {
         font-size: 20px;
         list-style: none;
+        font-family: var(--font2);
       }
       nav a {
         background-color:rgba(255,255,255,.35); 
         text-decoration:none;
         background-color: #F2F2F2;
-        font-weight:bold;
-        text-transform:uppercase;
         text-align:center;
         font-size: 20px;
+        font-family: var(--font1);
       }
       nav span {
         font-size: 20px;
+        font-family: var(--font1);
       }
       .details {
         background: #0D0D0D;
         color:#7ABFBF;
-        
       }
       .ingredients {
         float: left;
         
       }
       .directions {
-        display: inline;
+
       }
       .dishes {
         background: var(--dkcyan);
@@ -75,6 +79,7 @@
         clear:both;
         background-color:#F2F2F2;
         font-size: 20px;
+        font-family: var(--font1);
       }
     /*-------------------- MEDIA QUERY (medium) --------------------------------*/
     @media (min-width: 414px) {

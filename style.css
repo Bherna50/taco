@@ -52,6 +52,9 @@
         font-size: 20px;
         font-family: var(--font1);
       }
+      .label {
+        background-color: #EB5428;
+      }
       .details {
         background: #0D0D0D;
         color:#7ABFBF;

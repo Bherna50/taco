@@ -55,7 +55,7 @@
         list-style: none;
       }
       .directions {
-        list-style: ;
+        
       }
       .dishes {
         background: rgba(122, 191, 191, .5);
@@ -96,5 +96,5 @@
          
     }
     @media print {
-        margin: 0.5inch;
+    
     }   

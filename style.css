@@ -1,7 +1,24 @@
     /* -------------------- IMPORTED FONTS -------------------------------------- */
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     /*-------------------- CSS RESET ---------------------------------------------------*/
-    
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
     /* -------------------- ROOT VARIABLES --------------------------------------- */
     :root {
     --black:#0D0D0D;
@@ -14,6 +31,7 @@
 
     }
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+    
     html {
         background: rgba(122, 191, 191, .5);
 

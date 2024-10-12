@@ -92,13 +92,13 @@
       #svg {
         
       }
-      .rating {
-        --star-activate: #fece3c;
+      .star {
+        --star-active: var(--orange);
         --star-inactive:#6c6962;
-        fill: var(--star-activate)
+        fill: var(--star-inactive)
       }
-      .rating.active {
-        fill:var(--star-activate)
+      .star.active {
+        fill:var(--orange)
       }
       h2 {
         font-size:30px;

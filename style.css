@@ -40,9 +40,10 @@
         background-color: #F2F2F2;
         margin: 0px 50px;
       }
-      header{
-        height: -800px;
-        display: inline;
+      #menu {
+        gap: 50px;
+        margin: 0px 100px;
+
       }
       h1 {
         font-size:40px;
@@ -91,14 +92,26 @@
       #svg {
         
       }
+      .rating {
+        --star-activate: #fece3c;
+        --star-inactive:#6c6962;
+        fill: var(--star-activate)
+      }
+      .rating.active {
+        fill:var(--star-activate)
+      }
       h2 {
         font-size:30px;
         clear:both;
         text-align: center;
+        visibility: hidden;
       }
       h3 {
         font-size:25px;
         text-align: center;
+      }
+      #link {
+        display: inline;
       }
       footer {
         clear:both;
@@ -126,7 +139,7 @@
         
       }
       .dishes {
-        
+        display: grid;
       }
          
     }

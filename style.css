@@ -73,9 +73,6 @@
         font-family: var(--font1);
       
       }
-      nav img {
-        visibility: hidden;
-      }
       .label {
         background-color: #EB5428;
       }
@@ -90,6 +87,9 @@
       }
       .dishes > p {
         font-weight:bold;
+      }
+      #svg {
+        
       }
       h2 {
         font-size:30px;
@@ -127,9 +127,6 @@
       }
       .dishes {
         
-      }
-      nav img {
-        width: 30px; height: 30px;
       }
          
     }
